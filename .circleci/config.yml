@@ -10,6 +10,6 @@ jobs:
       MY_VAR: "my-value"
     steps:
       - checkout
-      - run: echo $MY_VAR
+      - run: echo $MY_VAR Hello
       - run: node --version
       - run: npm install
